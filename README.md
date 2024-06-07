@@ -2,6 +2,7 @@ Instructions to use this app-
 1.this app was made using create-react-app
 so to start the server use npm start (refer to package.json)
 2.i used tailwind css to style in this project.
+In case you are having any trouble while setting up tailwind then follow the instruction from tailwind css LINK=> https://tailwindcss.com/docs/installation/framework-guides
 
 
 
