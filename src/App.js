@@ -8,7 +8,7 @@ import { useLocalStorageState } from "./custom hooks/useLocalStorageState";
 
 function App() {
   const [query, setQuery] = useState("");
-  const { books, error } = useBooks(query);
+  const { books} = useBooks(query);
   // here error has not been used because it was not instructed ,i added it here so in future if needed the error can be used directly .
   const [bookshelf, setBookshelf] = useLocalStorageState([], "bookshelf");
   function handleAddToBookshelf(book) {
